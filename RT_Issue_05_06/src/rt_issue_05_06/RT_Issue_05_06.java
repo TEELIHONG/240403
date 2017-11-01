@@ -18,8 +18,8 @@ public class RT_Issue_05_06 extends Thread {
         t1.join();
         t2.join();
 
-        System.out.println(t1.getName() + " = " + countThread.CT1());
-        System.out.println(t2.getName() + " = " + countThread.CT2());
+        System.out.println(t1.getName() + " : " + countThread.CT1());
+        System.out.println(t2.getName() + " : " + countThread.CT2());
         
         System.out.println("Total = " + countThread.CTtotal());
        //OR //System.out.println("Total = " + (countThread.CT1() + countThread.CT2()));
